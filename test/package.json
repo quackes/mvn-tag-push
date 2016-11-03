@@ -1,0 +1,10 @@
+{
+  "name": "mvn-tag-push-test",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bump": "^0.8.0",
+    "grunt-git-is-clean": "^0.1.2",
+    "grunt-prompt": "^1.3.3"
+  }
+}

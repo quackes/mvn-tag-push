@@ -1,0 +1,34 @@
+{
+  "name": "mvn-tag-push",
+  "version": "0.0.1",
+  "description": "Toolchain for a save git tag and push for Maven projects.",
+  "main": "mvn-tag-push.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mvn-tag-push-setup": "bin/setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quackes/mvn-tag-push.git"
+  },
+  "keywords": [
+    "maven",
+    "mvn",
+    "toolchain",
+    "npm",
+    "push",
+    "tag",
+    "bump"
+  ],
+  "author": "Tobias Wingerter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quackes/mvn-tag-push/issues"
+  },
+  "homepage": "https://github.com/quackes/mvn-tag-push#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
