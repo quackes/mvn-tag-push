@@ -15,8 +15,11 @@ Now you can bootstrap the needed things in your maven project:
 ```shell
 mvn-tag-push-setup
 ```
-package.json and Gruntfile.js are created, and you're good to go.
-
+package.json and Gruntfile.js are created, run
+```shell
+npm install
+```
+and you're good to go.
 
 ## Motivation
 I work in a coperate environment where i have to tag in order to deploy to a test instance. So I often messed up versions, because my tests where not clean an so on.
