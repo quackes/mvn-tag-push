@@ -2,7 +2,12 @@ var fs = require('fs');
 
 var mvnTagPush = require('..')
 
-module.exports = function(grunt, preRunTask) {
+module.exports = function(grunt) {
 
-    mvnTagPush(grunt);
+    grunt.registerTask('my-pre-task', function() {
+		console.log("pretask executed")
+	});
+
+    mvnTagPush(grunt, 'my-pre-task');
+
 }
