@@ -1,6 +1,6 @@
 # mvn-tag-push
 Small Toolchain for tagging and pushing safely for Maven projects.
-On top of grunt-bump1
+On top of [grunt-bump](https://github.com/vojtajina/grunt-bump).
 
 ## Getting Started
 This plugin requires Grunt.
