@@ -118,4 +118,4 @@ Taskname is passed as second argument to mvn-tag-push. Pretask is only executed 
 ## To-Do
 - Maybe convert to proper grunt-task
 - Port to gulp
-- Ability to pass config to underlying modules (e.g. grunt bump)
+- Ability to pass config and options to underlying modules (e.g. grunt bump, maven ...)
